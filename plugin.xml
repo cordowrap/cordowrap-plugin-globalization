@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+  id="cordowrap-plugin-globalization"
+  version="0.1.0" >
+
+  <name>cordowrap-plugin-globalization</name>
+  <description>Wrap cordova-plugin-globalization in an es6 promise</description>
+  <license>MIT</license>
+  <keywords>cordova,cordowrap,globalization</keywords>
+  <repo>https://github.com/cordowrap/cordowrap-plugin-globalization.git</repo>
+
+  <js-module src="dist/globalization.js">
+    <clobbers target="cordowrap" />
+  </js-module>
+
+  <dependency
+    id="cordova-plugin-globalization"
+    url="https://github.com/apache/cordova-plugin-globalization.git">
+  </dependency>
+</plugin>

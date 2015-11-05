@@ -1,0 +1,3 @@
+# cordowrap-plugin-globalization
+
+POC

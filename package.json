@@ -1,0 +1,55 @@
+{
+  "name": "cordowrap-plugin-globalization",
+  "version": "0.1.0",
+  "description": "Wrap cordova-plugin-globalization in an es6 promise",
+  "cordova": {
+    "id": "cordowrap-plugin-globalization",
+    "platforms": [
+      "android",
+      "amazon-fireos",
+      "ubuntu",
+      "firefoxos",
+      "ios",
+      "wp7",
+      "wp8",
+      "windows",
+      "tizen",
+      "blackberry10"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "cordowrap-plugin-globalization"
+  },
+  "keywords": [
+    "cordova",
+    "promise",
+    "cordowrap",
+    "globalization",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-amazon-fireos",
+    "cordova-ubuntu",
+    "cordova-firefoxos",
+    "cordova-ios",
+    "cordova-wp7",
+    "cordova-wp8",
+    "cordova-windows",
+    "cordova-tizen",
+    "cordova-blackberry10"
+  ],
+  "author": "Alexis Kofman <alexis.kofman@gmail.com> (http://twitter.com/alexiskofman)",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist"
+  },
+  "devDependencies": {
+    "babel-core": "6.0.12",
+    "babel-cli": "6.0.12",
+    "babel-preset-es2015": "6.0.15",
+    "babel-preset-stage-0": "6.0.15",
+    "babel-eslint": "4.1.4",
+    "eslint": "1.8.0"
+  }
+}
